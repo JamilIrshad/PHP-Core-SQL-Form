@@ -1,0 +1,70 @@
+body{
+    margin: 30px;
+    padding: 20px;
+    border: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+}
+
+h3{
+    border: #333;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > *{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 200px;
+    font-size: 18px;
+    border: 1px solid #333;
+}
+
+button{
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+
+label.required::after {
+    content: "*";
+    color: #FF0000;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
